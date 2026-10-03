@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pdftotext:*)",
+      "Bash(python3:*)",
+      "Bash(pip3 install:*)",
+      "Bash(# Check for virtual envs or conda which python3 && python3 --version ls ~/Desktop/quantum_computing/ || echo \"\"No venv found there\"\" # Try conda conda run python -c \"\"import pypdf; print\\(''conda ok''\\)\"\" || echo \"\"no conda pypdf\"\" # Try pip with user flag pip3 install pypdf --user 2>&1)",
+      "Bash(python3.9:*)",
+      "Bash(/Users/nishithreen/Desktop/quantum_computing/.venv/bin/python3.9:*)",
+      "Bash(/Users/nishithreen/Desktop/quantum_computing/.venv/bin/pip install:*)",
+      "Bash(/Users/nishithreen/Desktop/quantum_computing/.venv/bin/pip list)",
+      "Bash(.venv/bin/python3.9 ground_state_sa.py)",
+      "Bash(.venv/bin/python3.9:*)",
+      "Bash(.venv/bin/pip:*)",
+      "Bash(ps:*)",
+      "Bash(kill:*)",
+      "Bash(echo:*)",
+      "Bash(ls:*)",
+      "Bash(# Look for virtual envs or conda environments find /Users/nishithreen -name \"\"neal\"\" -type d)"
+    ]
+  }
+}
